@@ -1,5 +1,6 @@
 
 let lupa = []
+
 for(let i = 0; i < document.querySelectorAll('p').length; i++){
     lupa[i]= document.querySelectorAll('p')[i]
     lupa[i].addEventListener('mouseover', aumenta)
