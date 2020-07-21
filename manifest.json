@@ -5,6 +5,11 @@
     "browser_action": {
          
     },
+    "icons": {
+		"16": "/icon/lupa.png",
+		"48": "/icon/lupa.png",
+        "128": "icon/lupa.png"
+    },
     "content_scripts": [
         {
             "matches": [
